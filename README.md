@@ -47,7 +47,7 @@ ___
 
 Тест на прием дейтаграмм с помощью небольшого скрипта пайтон
 
-![Alt-текст](https://github.com/stemirkhan/test_project/blob/main/Скриншот%2009-04-2022%20135903.png "окно программы")
+![Alt-текст](https://github.com/stemirkhan/test_project/blob/main/Скриншот%2009-04-2022%20135903.png.png "окно программы")
 ___
 
 ### Возможные улучшения
