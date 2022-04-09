@@ -64,17 +64,17 @@
      <rect>
       <x>20</x>
       <y>10</y>
-      <width>141</width>
+      <width>171</width>
       <height>20</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>12</pointsize>
+      <pointsize>10</pointsize>
      </font>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string>Количесвто дейтаграмм:  0</string>
     </property>
    </widget>
   </widget>

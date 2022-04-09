@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include <QUdpSocket>
+#include <QTimer>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class SendUDP; }
@@ -18,8 +19,8 @@ public:
 
 private slots:
     void  sending_datagrams();//отправка дейтаграм
-    void on_start_button_clicked();
-    void on_stop_button_clicked();
+    void on_start_button_clicked();//кнопка старт
+    void on_stop_button_clicked();//кнопка стоп
 
 private:
     Ui::SendUDP *ui;
@@ -31,5 +32,8 @@ private:
     QHostAddress send_address = QHostAddress::LocalHost;//хост получателя
     QHostAddress socket_address = QHostAddress::LocalHost;//хост сокета
 
+    QTimer *timer_udp_send;
+    int package_quantity = 0;
+    int send_udp_interval = 1000;//интервал отправки
 };
 #endif // SENDUDP_H
