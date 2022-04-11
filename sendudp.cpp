@@ -18,6 +18,8 @@ SendUDP::SendUDP(QWidget *parent)
 SendUDP::~SendUDP()
 {
     delete ui;
+    delete  udp_socket;
+    delete timer_udp_send;
 }
 
 void SendUDP::sending_datagrams()
